@@ -23,7 +23,7 @@ initrd http://path.to/initrd
 imgargs vmlinuz put_kernel_img_args_here
 boot || goto custom_exit
 
-:option_one
+:option_two
 kernel https://boot.netboot.xyz/memdisk raw iso
 initrd https://download.nutanix.com/ce/2024.08.19/phoenix.x86_64-fnd_5.6.1_patch-aos_6.8.1_ga.iso
 boot || goto custom_exit
