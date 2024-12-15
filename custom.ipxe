@@ -8,7 +8,7 @@ echo Hello world!
 sleep 10
 goto custom_exit
 
-:nutanix
+:option_one
 kernel https://boot.netboot.xyz/memdisk raw iso
 initrd https://download.nutanix.com/ce/2024.08.19/phoenix.x86_64-fnd_5.6.1_patch-aos_6.8.1_ga.iso
 boot || goto custom_exit
